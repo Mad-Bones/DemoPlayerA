@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/simple_player_a"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/title_media_text"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/example_track_title"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/time_media_current"
+                android:text="@string/example_time"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <SeekBar
+                android:id="@+id/slider_media"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:progressTint="@color/general_green"
+                app:haloColor="@color/general_green"
+                app:thumbColor="#00FFFFFF"
+                app:trackColorActive="@color/general_green" />
+            <TextView
+                android:id="@+id/time_media_total"
+                android:text="@string/example_time"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="5dp"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/mediab_play"
+                android:src="@drawable/ic_play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:tint="@color/general_green"
+                android:contentDescription="@string/app_name" />
+            <ImageView
+                android:id="@+id/mediab_pause"
+                android:src="@drawable/ic_pause"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:tint="@color/general_greendark"
+                android:contentDescription="@string/app_name"  />
+            <ImageView
+                android:id="@+id/mediab_stop"
+                android:src="@drawable/ic_stop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:tint="@color/general_green"
+                android:contentDescription="@string/app_name" />
+            <ImageView
+                android:id="@+id/mediab_next"
+                android:src="@drawable/ic_next"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:tint="@color/general_green"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

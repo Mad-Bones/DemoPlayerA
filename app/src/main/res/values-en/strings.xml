@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DemoPlayerA</string>
+    <string name="title_app">Simple Music Player</string>
+    <string name="description_app">Simple app to play specific files, internal in the app.\n\nNO SPECIAL PERMITS REQUIRED\n\n==========  ==========\n\nContains:\n\nTrack: 1\nComposer: Edvard Grieg\nWork: Out of the Mountain Kings Hall\nPremiered: February 24, 1876\n\nTrack: 2\Composer: Johann Strauss II\nWork: Wiener Bonbons\nPremiered: January 28, 1866</string>
+    <string name="track_a">Edvard Grieg - Out of the Mountain King\'s Hall - 1876</string>
+    <string name="track_b">Johann Strauss - Vienna Bonbons Waltz - 1866</string>
+    <string name="my_full_phone_number">+0000000000</string>
+    <string name="my_email_address">youremail@mail.com</string>
+    <string name="my_github_repository">https://github.com/Mad-Bones/DemoPlayerA</string>
+    <string name="send_whats">Whapsapp</string>
+    <string name="send_mail_to">Email</string>
+    <string name="github_repository">Github repo</string>
+    <string name="buttons_title_text">Contact us:</string>
+    <string name="example_text">EXAMPLE</string>
+    <string name="example_title">TITLE</string>
+    <string name="example_track_title">Title - title</string>
+    <string name="example_time">00:00</string>
+    <string name="no_email_apps_intalled">There are no email clients installed.</string>
+    <string name="feedback">Feedback</string>
+</resources>
